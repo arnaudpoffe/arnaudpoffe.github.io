@@ -13,11 +13,25 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aoe_technology_radar": "^3.5.2",
+    "@apideck/better-ajv-errors": "^0.3.6",
+    "aoe_technology_radar": "^3.5.3",
+    "gh-pages": "^5.0.0",
     "valet": "^0.1.5-b"
   },
   "devDependencies": {
     "laravel-mix": "^6.0.49"
   },
-  "homepage": "https://arnaudpoffe.github.io"
+  "homepage": "https://arnaudpoffe.github.io",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
