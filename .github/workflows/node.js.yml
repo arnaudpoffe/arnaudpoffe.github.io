@@ -32,4 +32,7 @@ jobs:
         npm i aoe_technology_radar          
         npx aoe_technology_radar-buildRadar
         npx aoe_technology_radar-generateJson
-        cp -r build/. public
+        npm i @apideck/better-ajv-errors
+        npm install --save gh-pages
+        cd build
+        npm run deploy
