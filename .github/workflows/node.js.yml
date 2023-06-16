@@ -32,3 +32,4 @@ jobs:
         npm i aoe_technology_radar          
         npx aoe_technology_radar-buildRadar
         npx aoe_technology_radar-generateJson
+        cp -r build/. public
