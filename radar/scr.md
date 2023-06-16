@@ -1,6 +1,6 @@
 ---
 title:      "youhou"
-ring:       assess
+ring:       trial
 quadrant:   tools
 tags:       [devops]
 ---
