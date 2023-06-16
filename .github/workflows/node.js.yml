@@ -30,5 +30,6 @@ jobs:
     - run: 'npm i aoe_technology_radar'
     - run: 'npx aoe_technology_radar-buildRadar'
     - run: 'npx aoe_technology_radar-generateJson'
+    - run : 'npm i @apideck/better-ajv-errors'
     - run: 'npm install --save gh-pages'
     - run: 'npm run deploy'
