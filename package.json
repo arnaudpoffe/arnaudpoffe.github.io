@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +18,6 @@
   },
   "devDependencies": {
     "laravel-mix": "^6.0.49"
-  }
+  },
+  "homepage": "https://arnaudpoffe.github.io"
 }
